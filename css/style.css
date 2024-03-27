@@ -9,12 +9,7 @@
 body{
     --color-gris-fondo:#ececec;
     --color-verde-navbar:#78A200;
-    --color-verde-claro:#e4fc9d;
-    --color-mostaza:#FFBC2E;
-    --color-celeste:#00aae4;
     --color-gris-fuente:#101010;
-    --color-ocre:#ffefa6; 
-    --color-verde-lima:#CBE26E; 
     --color-terracota:#E25238; 
 }
 
@@ -26,18 +21,29 @@ body{
     -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
 }
 
-.servicios{
-    margin: 40px 0px;
-    height: 500px;
-    background-color: #FFBC2E;
+.card_servicios{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 16px;
+
 }
 
-.portada {
+
+.servicios{
+    background-color: wheat;
     height: 400px;
-    background-image: url('../img/estudio.jpg');
-    background-size: contain;
-    background-position: center;
+    margin: 50px 0;
+
 }
+
+
+
+.card_general:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
+}
+
 
 
 .testimonios{
@@ -46,7 +52,8 @@ body{
 }
 
 .row_testimonios, .row_servicios{
-    gap: 8px;
+    gap: 16px;
+    margin-bottom: 16px;
 }
 
 
@@ -72,26 +79,6 @@ body{
 }
 
 
-
-
-.espacio-responsive{
-    margin-bottom: 40px;
-}
-
-.espacio-responsive-medio{
-    margin-bottom: 15px;
-}
-
-.espacio-responsive-sup{
-    margin-top: 26px;
-}
-
-.breadcrumb-item{
-    font-size: 14px;
-}
-
-
-
 .nav-bar{
     text-align: center;
 }
@@ -114,69 +101,13 @@ body{
 }
 
 
-
 .img-redondeadas{
     border-radius: 10px;
+
 }
 
-.transform_img:hover{
-    transform: scale(1.015);
-    transition: 0.1s;
-    transition-timing-function: ease-in;
-}
 
-.contenedor_texto_banner{
-    position: absolute;
-    top: 20%;
-    transform: translate(10%, -50%);
-}
 
-.contenedor_itinerario{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-}
-
-.contenedor_itinerario h2{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000;
-}
-
-.contenedor_itinerario img{
-    width: 80%;
-}
-
-.contenedor_itinerario{
-    filter:brightness(0.9);
-}
-
-.contenedor_itinerario:hover{
-    filter:brightness(1.2);
-}
-
-.titulo_banner{
-    font-size: 9vw;
-    font-weight: 700;
-    color: white;
-    text-shadow: 0px 0px 11px #000000;
-}
-
-.subtitulo_banner{
-    font-size: 2.8vw;
-    font-weight: 700;
-    color: white;
-    text-shadow: 0px 0px 11px #000000;
-    margin-bottom: -3%;
-}
-
-.destacado{
-    font-size: 18px;
-}
 
 .titulo_secundario{
     font-size: 24px;
@@ -190,28 +121,9 @@ body{
    color: var(--color-gris-fuente);
 }
 
-.titulo_terciario{
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    margin-top: 3px;
-    margin-bottom: 7px;
-    text-align: center;
-}
 
-.titulo_categorias{
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-bottom: 3px;
-}
 
-.titulo_responsive_exc_gast{
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-bottom: 3px;
-}
+
 
 .p_texto{
     font-size: 16px;
@@ -220,42 +132,10 @@ body{
     line-height: 28px;
 }
 
-.p_texto_responsive_exc_gast{
-    font-size: 16px;
-    color: var(--color-gris-fuente);
-    margin-bottom:6px;
-    line-height: 28px;
-}
 
-.cat-excursiones-3{
-    background-color: var(--color-gris-fondo);
-    border-radius: 15px;
-    padding: 20px;
-    height: auto;
-    margin: 0 4px;
-    width: 49% !important;
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-}
 
-.cat-excursiones-2{
-    background-color: var(--color-gris-fondo);
-    border-radius: 15px;
-    padding: 10px;
-    height: auto;
-    margin: 0 4px 10px 4px;
-    width: 49% !important;
-    box-shadow: rgba(0, 0, 0, 0.11) 1px 1px 1px;
-}
 
-.row-excursiones{
-    display: flex;
-    justify-content: center;
-}
 
-.error_404{
-    text-align: center;
-    margin: 80px 0 160px 0;
-}
 
 .footer-redes{
     padding: 10px 0;
