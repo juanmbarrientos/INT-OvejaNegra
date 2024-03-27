@@ -50,6 +50,11 @@ body{
 }
 
 
+.carousel{
+    margin-top: 0px;
+}
+
+
 .perfil{
     height: 30px;
     margin-right:5px;
@@ -108,20 +113,7 @@ body{
     font-weight: 500;
 }
 
-.a-btn-celeste{
-    background-color: var(--color-celeste);
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 4px;    
-    color: var(--color-gris-fuente);
-    font-size: 16px;
-    font-weight: 500;
-}
 
-.cafecito{
-    margin-left: 10px;
-    display: inline;
-}
 
 .img-redondeadas{
     border-radius: 10px;
@@ -433,6 +425,7 @@ footer h3, p{
     }
 
 
+
     .form-cont-cafe{
         display: flex;
         justify-content: center;
@@ -467,6 +460,7 @@ footer h3, p{
 
     .espacio-responsive-sup{
         margin-top: 13px;
+   
     }
 
     .como_llegar{

@@ -1,21 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: .2px;
-}
-
-body{
-    --color-gris-fondo:#ececec;
-    --color-verde-navbar:#78A200;
-    --color-verde-claro:#e4fc9d;
-    --color-mostaza:#FFBC2E;
-    --color-celeste:#00aae4;
-    --color-gris-fuente:#101010;
-    --color-ocre:#ffefa6; 
-    --color-verde-lima:#CBE26E; 
-}
 
 /* H */
 .linea-separacion{
@@ -23,35 +6,8 @@ body{
     margin: 0;
 }
 
-.espacio-responsive{
-    margin-bottom: 40px;
-}
 
-.espacio-responsive-medio{
-    margin-bottom: 15px;
-}
 
-.espacio-responsive-sup{
-    margin-top: 26px;
-}
-
-.breadcrumb-item{
-    font-size: 14px;
-}
-
-.nav0{
-    box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-    -webkit-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-    -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-}
-
-.nav1{
-    background-color: var(--color-gris-fondo);
-}
-
-.nav2{
-    background-color: var(--color-verde-navbar);
-}
 
 .nav-bar{
     text-align: center;
@@ -63,9 +19,6 @@ body{
     font-weight: 500;
 }
 
-.carousel{
-    margin-top: 100px;
-}
 
 .resaltador_verde, .resaltador_verde_lima, .resaltador_mostaza{
     padding: 0 5px;
@@ -75,13 +28,6 @@ body{
     margin-bottom: 0;
 }
 
-.resaltador_mostaza{
-    background-color: var(--color-mostaza);
-}
-
-.resaltador_verde_lima{
-    background-color: var(--color-verde-lima);
-}
 
 .a-btn-verde{
     background-color: var(--color-verde-navbar);
@@ -93,20 +39,7 @@ body{
     font-weight: 500;
 }
 
-.a-btn-celeste{
-    background-color: var(--color-celeste);
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 4px;    
-    color: var(--color-gris-fuente);
-    font-size: 16px;
-    font-weight: 500;
-}
 
-.cafecito{
-    margin-left: 10px;
-    display: inline;
-}
 
 .img-redondeadas{
     border-radius: 10px;
@@ -251,151 +184,13 @@ body{
     margin: 80px 0 160px 0;
 }
 
-.footer-redes{
-    padding: 10px 0;
-    background-color: var(--color-verde-navbar);
-}
 
-.redes-sociales{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.seguinos_redes{
-    font-size: 18px;
-    padding: 0 5px;
-    color: white;
-    line-height: 30px;
-}
 
-.redes-sociales h2{
-    margin: 0 8px;
-}
 
-.redes-sociales img{
-    width: 30px;
-    margin: 0 8px;
-}
 
-footer{
-    padding: 20px 0;
-    background-color: var(--color-gris-fuente);
-}
 
-footer h3, p{
-    font-size: 12px;
-    margin: 0;
-    line-height: 20px;
-    color: white;
-}
 
-.logo_footer{
-    display: flex;
-    flex-direction: column;
-}
-
-.derechos_reservados{
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-.form-group{
-    margin-top: 10px;
-}
-
-.logo_contacto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo_contacto img{
-    width: 300px;
-}
-
-.general-gris{
-    background-color: var(--color-gris-fondo);
-    padding: 30px 0;
-}
-
-.instagram{
-    background-color: white;
-    padding: 30px 0;
-}
-
-.main-general, .general{
-    padding: 30px 0 0 0;
-}
-
-.general-final{
-    padding: 30px 0;
-}
-
-.main-general{
-    margin-top: 100px;
-}
-
-.horario_vida_nocturna{
-    display: inherit;
-}
-
-.modal-dialog{
-    width: 70vh !important;
-}
-
-.p_texto_galeria{
-    font-size: 16px;
-    color: var(--color-gris-fuente);
-    margin-bottom:6px;
-    line-height: 28px;
-    text-align: center;
-}
-
-.recomendaciones{
-    height: auto;
-    padding: 20px 20px 0px;
-}
-
-.recomendaciones img{
-    height: 40px;
-    margin-right:5px;
-}
-
-.bg-recomendaciones{
-    background-color: var(--color-verde-claro);
-    padding: 20px 40px !important;
-    border-radius: 10px;
-}
-
-.testimonios{
-    background-color: white;
-    height: auto;
-    padding: 20px 20px !important;
-}
-
-.testimonios img{
-    height: 30px;
-    margin-right:5px;
-}
-
-.col_suma_tu_aporte{
-    display: flex;
-    align-items: center;
-}
-
-.row_testimonios h3{
-    display: inline;
-}
-
-.p_texto_testimonio{
-    font-size: 14px;
-    color: var(--color-gris-fuente);
-    margin: 5px 0;
-    text-align: center;
-}
 
 .titulo_perfil{
     font-size: 20px;
