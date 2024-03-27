@@ -18,29 +18,56 @@ body{
     --color-terracota:#E25238; 
 }
 
-.portada{
+
+.navbar_oveja{
+    background-color: var(--color-terracota);
+    box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+}
+
+.servicios{
+    margin: 40px 0px;
+    height: 500px;
+    background-color: #FFBC2E;
+}
+
+.portada {
     height: 400px;
-    width: 100%;
-    background-size: cover;
+    background-image: url('../img/estudio.jpg');
+    background-size: contain;
+    background-position: center;
+}
+
+
+.testimonios{
+    background-color: white;
+    padding: 20px 20px !important;
+}
+
+.row_testimonios{
+    gap: 8px;
+}
+
+
+.perfil{
+    height: 30px;
+    margin-right:5px;
+}
+
+.calificacion{
+    margin-top: 8px;
     display: flex;
     justify-content: center;
 }
 
-.portada img{
-    width: 100%;
-}
-
-.prueba_espacio{
-    width: 400px;
-    height: 400px;
-    background-color: #e4fc9d;
+.estrellas{
+    color: gold;
+    font-size: 30px;
 }
 
 
-.linea-separacion{
-    border: 3px solid var(--color-verde-navbar);
-    margin: 0;
-}
+
 
 .espacio-responsive{
     margin-bottom: 40px;
@@ -58,12 +85,7 @@ body{
     font-size: 14px;
 }
 
-.nav1{
-    background-color: var(--color-terracota);
-    box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-    -webkit-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-    -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-}
+
 
 .nav-bar{
     text-align: center;
@@ -362,16 +384,7 @@ footer h3, p{
     border-radius: 10px;
 }
 
-.testimonios{
-    background-color: white;
-    height: auto;
-    padding: 20px 20px !important;
-}
 
-.testimonios img{
-    height: 30px;
-    margin-right:5px;
-}
 
 .col_suma_tu_aporte{
     display: flex;
@@ -412,7 +425,7 @@ footer h3, p{
 
     .portada{
         background-size: contain;
-        height: 300px;
+        background-repeat: no-repeat;
     }
 
 
