@@ -18,14 +18,16 @@ body{
     --color-terracota:#E25238; 
 }
 
-header{
+.portada{
     height: 400px;
     width: 100%;
-    background-image: url('../img/estudio.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
+}
 
+.portada img{
+    width: 100%;
 }
 
 .prueba_espacio{
@@ -407,6 +409,14 @@ footer h3, p{
 }
 
 @media (min-width:396px) and (max-width:991px){
+
+    .portada{
+        background-size: contain;
+        height: 300px;
+    }
+
+
+
     .form-cont-cafe{
         display: flex;
         justify-content: center;
