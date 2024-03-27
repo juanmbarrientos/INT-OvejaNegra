@@ -15,59 +15,13 @@ body{
     --color-gris-fuente:#101010;
     --color-ocre:#ffefa6; 
     --color-verde-lima:#CBE26E; 
-    --color-terracota:#E25238; 
 }
 
-
-.navbar_oveja{
-    background-color: var(--color-terracota);
-    box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-    -webkit-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
-    -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+/* H */
+.linea-separacion{
+    border: 3px solid var(--color-verde-navbar);
+    margin: 0;
 }
-
-.servicios{
-    margin: 40px 0px;
-    height: 500px;
-    background-color: #FFBC2E;
-}
-
-.portada {
-    height: 400px;
-    background-image: url('../img/estudio.jpg');
-    background-size: contain;
-    background-position: center;
-}
-
-
-.testimonios{
-    background-color: white;
-    padding: 20px 20px !important;
-}
-
-.row_testimonios, .row_servicios{
-    gap: 8px;
-}
-
-
-.perfil{
-    height: 30px;
-    margin-right:5px;
-}
-
-.calificacion{
-    margin-top: 8px;
-    display: flex;
-    justify-content: center;
-}
-
-.estrellas{
-    color: gold;
-    font-size: 30px;
-}
-
-
-
 
 .espacio-responsive{
     margin-bottom: 40px;
@@ -85,7 +39,19 @@ body{
     font-size: 14px;
 }
 
+.nav0{
+    box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 8px 20px -5px rgba(0,0,0,0.63);
+}
 
+.nav1{
+    background-color: var(--color-gris-fondo);
+}
+
+.nav2{
+    background-color: var(--color-verde-navbar);
+}
 
 .nav-bar{
     text-align: center;
@@ -97,6 +63,25 @@ body{
     font-weight: 500;
 }
 
+.carousel{
+    margin-top: 100px;
+}
+
+.resaltador_verde, .resaltador_verde_lima, .resaltador_mostaza{
+    padding: 0 5px;
+    display: inline;
+    color: var(--color-gris-fuente);
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.resaltador_mostaza{
+    background-color: var(--color-mostaza);
+}
+
+.resaltador_verde_lima{
+    background-color: var(--color-verde-lima);
+}
 
 .a-btn-verde{
     background-color: var(--color-verde-navbar);
@@ -135,8 +120,9 @@ body{
 
 .contenedor_texto_banner{
     position: absolute;
-    top: 20%;
-    transform: translate(10%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contenedor_itinerario{
@@ -267,7 +253,7 @@ body{
 
 .footer-redes{
     padding: 10px 0;
-    background-color: var(--color-terracota);
+    background-color: var(--color-verde-navbar);
 }
 
 .redes-sociales{
@@ -384,7 +370,16 @@ footer h3, p{
     border-radius: 10px;
 }
 
+.testimonios{
+    background-color: white;
+    height: auto;
+    padding: 20px 20px !important;
+}
 
+.testimonios img{
+    height: 30px;
+    margin-right:5px;
+}
 
 .col_suma_tu_aporte{
     display: flex;
@@ -422,17 +417,6 @@ footer h3, p{
 }
 
 @media (min-width:396px) and (max-width:991px){
-
-    .portada{
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    .slide{
-        margin: 0;
-    }
-
-
     .form-cont-cafe{
         display: flex;
         justify-content: center;
@@ -441,6 +425,10 @@ footer h3, p{
     .seguinos_redes{
         font-size: 16px;
     }
+    .slide{
+        margin: 0;
+    }
+
 
 
     .card-comercios{
