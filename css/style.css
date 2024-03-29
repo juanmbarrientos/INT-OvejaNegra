@@ -38,6 +38,43 @@ body{
 
 
 
+
+.brands-list{
+    overflow: hidden;
+}
+
+.brands-list img{
+    height: 40px;
+    margin: 0px 16px;
+}
+
+.wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 150px;
+    justify-items: stretch;
+}
+
+@keyframes scroll {
+    to{
+        translate: calc(-4 * 150px);
+    }
+}
+
+.wrapper{
+    animation: scroll 10s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
 .card_general:hover{
     transform: scale(1.05);
     transition: 0.1s;
