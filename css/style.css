@@ -36,6 +36,10 @@ body{
 
 }
 
+.img-clientes{
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -427,10 +431,6 @@ footer h3, p{
 
     .nav-link{
         text-align: center;
-    }
-
-    .img-instagram{
-        margin-bottom: 25px;
     }
 
     .instagram{
