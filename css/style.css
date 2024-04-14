@@ -76,6 +76,62 @@ body{
 
 
 
+/* ------------ Card calificación del cliente */
+
+.card_testimonios{
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.encabezado_testimonios{
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.perfil_testimonios{
+    height: 67px;
+    border-radius: 100px;
+}
+
+.info_testimonios{
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre_testimonios{
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+}
+
+.labor_testimonios{
+    font-size: 12px;
+    font-weight: 500;
+    display: inline;
+}
+.calificacion_testimonios{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.comentarios_testimonios{
+    font-size: 12px;
+    color: var(--color-gris-fuente);
+    margin: 5px 0;
+    text-align: left;
+    margin: 0px;
+}
+
+/* ------------ FIN Card calificación del cliente */
+
+
+
 
 
 
@@ -104,10 +160,7 @@ body{
 }
 
 
-.perfil{
-    height: 30px;
-    margin-right:5px;
-}
+
 
 .calificacion{
     margin-top: 8px;
@@ -309,19 +362,9 @@ footer h3, p{
     display: inline;
 }
 
-.p_texto_testimonio{
-    font-size: 14px;
-    color: var(--color-gris-fuente);
-    margin: 5px 0;
-    text-align: center;
-}
 
-.titulo_perfil{
-    font-size: 20px;
-    font-weight: 600;
-    display: inline;
-    margin: 0;
-}
+
+
 
 .user_nombre{
     display: flex;
