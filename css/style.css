@@ -76,14 +76,17 @@ body{
 
 
 
-/* ------------ Card calificación del cliente */
+/* ------------ Card Modelos */
 
-.card_testimonios{
+.card_testimonios, .card_servicios{
     padding: 16px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
+
+
+/* ------------ Card calificación del cliente */
 
 .encabezado_testimonios{
     display: flex;
@@ -193,6 +196,20 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
+
+.a-btn-terracota{
+    background-color: var(--color-terracota);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;    
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+
+
 
 
 .img-redondeadas{
