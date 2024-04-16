@@ -150,9 +150,7 @@ body{
     background-color: white;
     border-radius: 8px;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+  
 }
 
 .card_nosotros img{
@@ -161,10 +159,15 @@ body{
 
 .card_nosotros h2{
     margin-top: 16px !important;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     display: inline;
     color: black;
+}
+
+.card_nosotros a{
+    text-align: right;
+
 }
 
 .presentacion img{
@@ -479,6 +482,16 @@ footer h3, p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.filtro{
+    filter: grayscale(100%)
+}
+
+.filtro:hover{
+    filter: grayscale(0%)
 }
 
 @media (min-width:396px) and (max-width:991px){
